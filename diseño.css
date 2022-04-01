@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    height: opx;
+}
+
+a{
+    color: bisque;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.encabezado{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    float: right;
+    border: 2px solid rgb(248, 76, 177);
+}
+
+.cabeMid{
+    width: 90%;
+    margin-left: auto;
+    margin-top: auto;
+   
+}
+ 
+.nomPag{
+    margin-top: 30%;
+    font-size: large;
+}
+
+.inicReg{
+    float: right;
+    height: auto;
+    width: cm;
+    font-size: larger;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+
+.contenido{
+    border: 2px solid black;
+    width: 100%;
+    height: 90%;
+    background-color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    float: left;
+    position: relative;
+}
+
+.logoCineponys{
+    width: 12%;
+    height: 90%;
+    border: 2px solid black;
+    font-size: 30px;
+    color: bisque;
+    background-color: black;
+}
+
+.li{
+    margin-bottom: 55px;
+    margin-left: 10px;
+}
