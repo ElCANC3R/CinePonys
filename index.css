@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #121212;
+}
+
+.encabezado{
+    position: fixed;
+    z-index: 10;
+    width: 105rem;
+}
+
+.menuLogin{
+    margin-right: 10em;
+    margin-left: 30em;
+}
+
+.sideBar{
+    position: fixed;
+    border: 2px solid red;
+    margin-top: 4rem;
+}
+
+.navbar-brand{
+    font-size: xx-large;
+}
+
+.navSideBar{
+    font-size: 35px;
+    color: rgba(128, 128, 128, 0);
+    margin-top: 3em;
+}
+
+#carouselExampleIndicators{
+    position: relative;
+    top: 7rem;
+    left: 19rem;
+    border: 2px solid green;
+    height: 12%;
+    width: 80%;
+    z-index: 0;
+}
+
+.carousel-item{
+    height: 35rem;
+}
+
+/* .carousel-indicators{
+    position: absolute;    
+    border: 2px solid blue;
+} */
+
+.cards{
+    border: 2px solid blue;
+    position: relative;
+    top: 10rem;
+    left: 19rem;
+    width: 80%;
+    height: auto;
+}
+
+.cardPoster{
+    position: relative;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cardPoster h5{
+    color: white;
+}
+
+.cardPoster img{
+    height: 20rem;
+    width: 15rem;
+}
