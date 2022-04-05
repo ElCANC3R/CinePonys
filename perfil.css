@@ -1,0 +1,72 @@
+.infoPerfil{
+    background-color: rgba(8, 5, 12, 0.76);
+    position: relative;
+    top: 10rem;
+    left: 19rem;
+    width: 80%;
+    height: auto;
+    color: aliceblue;
+}
+
+.cardPoster{
+    position: relative;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    width: 20rem ;
+    float: left;
+    text-align: center;
+    
+}
+
+.cardPoster h5{
+    color: white;
+}
+
+.cardPoster img{
+    height: 20rem;
+    width: 20rem;
+}
+
+.cardsRenglon1{
+    display: flex;
+    justify-content: left;
+    align-content: left;
+}
+
+.info{
+   
+    width: 70%; 
+    align-content: center;
+
+}
+
+.divTitulo{
+    text-align: left;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+
+.divInfo{
+    display: flex;
+    width: 100%;
+    
+}
+
+.divInfo1{
+    background-color: gray;
+    position: relative;
+    width: 30%;
+    font-size: x-large;
+    border-right: 5px solid rgba(8, 5, 12, 0.76);
+}
+
+.divInfo2{
+
+    background-color: grey;
+    width:70% ;
+    font-size: x-large;
+}
+
+

@@ -1,8 +1,8 @@
+
 #carouselExampleIndicators{
     position: relative;
     top: 7rem;
     left: 19rem;
-    border: 2px solid green;
     height: 12%;
     width: 80%;
     z-index: 0;
@@ -18,12 +18,12 @@
 } */
 
 .cards{
-    border: 4px solid white;
     position: relative;
     top: 10rem;
     left: 19rem;
     width: 80%;
     height: auto;
+    background-color: rgba(8, 5, 12, 0.76) ; 
 }
 
 .cardPoster{
@@ -34,11 +34,12 @@
     margin-bottom: 2rem;
     width: 17rem ;
     float: left;
-    text-align: center;   
+    text-align: center;  
 }
 
 .cardPoster h5{
-    color: white;
+    color: rgb(218, 216, 216);
+    
 }
 
 .cardPoster img{
