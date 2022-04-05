@@ -1,49 +1,3 @@
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
-body, html{
-    background-color: #121212;
-    width: 100%;
-    height: 100%;
-}
-
-.redes, a{
-    color: rgb(179, 176, 176);
-}
-
-.encabezado{
-    position: fixed;
-    z-index: 10;
-    width: 105rem;
-}
-
-.menuLogin{
-    margin-right: 10em;
-    margin-left: 30em;
-}
-
-.sideBar{
-    position: fixed;
-    border: 2px solid red;
-    margin-top: 4rem;
-}
-
-.redes{
-    padding-right: 15px;
-}
-
-.navbar-brand{
-    font-size: xx-large;
-}
-
-.navSideBar{
-    font-size: 35px;
-    color: rgba(128, 128, 128, 0);
-    margin-top: 3em;
-}
-
 #carouselExampleIndicators{
     position: relative;
     top: 7rem;
@@ -80,8 +34,7 @@ body, html{
     margin-bottom: 2rem;
     width: 17rem ;
     float: left;
-    text-align: center;
-    
+    text-align: center;   
 }
 
 .cardPoster h5{
@@ -99,20 +52,7 @@ body, html{
     align-content: center;
 }
 
-.dropdown-menu button{
-    margin-bottom: 5px;
-    width: 8rem;
-}
-.dropdown-menu{
-    text-align: center;
-    background-color: black;
-}
 
-.divRegistro{
-    margin-bottom: 8px;
-    font-size: larger;
-}
-
-.divRegistro input{
-    margin-left: 8px;
+.infoList{
+    background-color: gray;
 }

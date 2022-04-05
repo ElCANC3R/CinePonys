@@ -1,0 +1,77 @@
+.infoPeli{
+    background-color: rgba(8, 5, 12, 0.349);
+    position: relative;
+    top: 10rem;
+    left: 19rem;
+    width: 80%;
+    height: auto;
+}
+
+.cardPoster{
+    position: relative;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    width: 17rem ;
+    float: left;
+    text-align: center;
+    
+}
+
+.cardPoster h5{
+    color: white;
+}
+
+.cardPoster img{
+    height: 20rem;
+    width: 15rem;
+}
+
+.cardsRenglon1{
+    display: flex;
+    justify-content: left;
+    align-content: left;
+}
+
+.infoPeli{
+    color: aliceblue;
+   
+}
+
+.info{
+   
+    width: 60%;
+   
+    align-content: center;
+
+}
+
+.divNombre{
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+
+.divInfo{
+    display: flex;
+    width: 100%;
+    
+}
+
+.divInfo1{
+    background-color: gray;
+    position: relative;
+    width: 30%;
+    font-size: x-large;
+    border-right: 5px solid black;
+}
+
+.divInfo2{
+
+    background-color: grey;
+    width:70% ;
+    font-size: x-large;
+}
+
+
