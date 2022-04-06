@@ -1,0 +1,144 @@
+.tickets{
+    position: relative;
+    width: 80%;
+    height: auto;
+    left: 19rem;
+    top: 7rem;
+    /* background-color: #151320; */
+}
+
+.renglonTickets{
+    background-color: #121212;
+    display: flex;
+    padding: 2rem;
+    align-content: center;
+}
+
+.posterTicket img{
+    height: 20rem;
+    width: 15rem;
+}
+
+.informacion{
+    position: relative;
+    height: 20rem;
+    width: 50rem;
+    background-color: #F8E9D4;
+    margin-left: 15%;
+    color: black;
+}
+
+.nombrePelicula{
+    position: absolute;
+    display: flex;
+    left: 20%;
+    height: 50%;
+    width: 60%;
+    border: 10px solid black;
+    text-align: center;   
+    align-items: center; 
+    justify-content: center;
+}
+
+.nombreDirector{
+    position: absolute;    
+    border: 10px solid black;  
+    transform: rotate(90deg);
+    text-align: center;
+    top: 22.6%;
+    right: 70%;
+    width: 40.2%;
+    height: 55%;
+}
+
+.nombreCine{
+    position: absolute;    
+    border: 10px solid black;  
+    transform: rotate(-90deg);
+    text-align: center;
+    left: 79.4%;
+    bottom: 47.5%;
+    width: 20.18%;
+    height: 55%;
+}
+
+.codigoQR{
+    position: absolute;    
+    border: 10px solid black;  
+    transform: rotate(-90deg);
+    text-align: center;
+    left: 79%;
+    top: 47%;
+    width: 21%;
+    height: 55%;
+}
+
+.codigoQR img{
+    height: 100%;
+    width: 100%;
+}
+
+.tipoAsiento{
+    position: absolute;
+    display: flex;
+    left: 20%;
+    top: 47%;
+    height: 30%;
+    width: 15%;
+    border: 10px solid black;
+    color: white;
+    background-color: black;
+    text-align: center;   
+    align-content: center;
+    justify-content: center;
+}
+
+.hora{
+    position: absolute;
+    left: 34%;
+    top: 47%;
+    height: 30%;
+    width: 46%;
+    border: 10px solid black;
+    text-align: center;   
+}
+
+.asientos{
+    position: absolute;    
+    left: 20%;
+    top: 73%;
+    height: 28%;
+    width: 40%;
+    border: 10px solid black;
+}
+
+.asientos span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sala{
+    position: absolute;    
+    left: 59%;
+    top: 73%;
+    height: 28%;
+    width: 21%;
+    border: 10px solid black;
+}
+
+.sala span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo{
+    width: 40px;
+    height: 40px;
+    background-color: #121212;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 3%;
+    right: 64%;
+}
