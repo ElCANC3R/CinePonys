@@ -23,7 +23,8 @@
     left: 19rem;
     width: 80%;
     height: auto;
-    background-color: rgba(8, 5, 12, 0.76) ; 
+    /* background-color: rgba(8, 5, 12, 0.76) ;  */
+    background-color: #121212;
 }
 
 .cardPoster{
@@ -47,7 +48,11 @@
     width: 15rem;
 }
 
-.cardsRenglon1{
+.cardPoster :hover{
+    border: 2px solid white;
+}
+
+.cardsRenglon{
     display: flex;
     justify-content: center;
     align-content: center;

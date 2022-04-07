@@ -1,5 +1,6 @@
 .infoPeli{
-    background-color: rgba(8, 5, 12, 0.76);
+    /* background-color: rgba(8, 5, 12, 0.76); */
+    background-color: #121212;
     position: relative;
     top: 10rem;
     left: 19rem;
@@ -68,7 +69,8 @@
 }
 
 .horarios{
-    background-color: rgba(8, 5, 12, 0.76);
+    /* background-color: rgba(8, 5, 12, 0.76); */
+    background-color: #121212;
     position: relative;
     top: 10rem;
     left: 19rem;
