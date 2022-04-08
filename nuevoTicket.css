@@ -1,6 +1,6 @@
 .generarTicket{
     position: relative;
-    width: 80rem;
+    width: 79.3%;
     height: 40rem;
     left: 19rem;
     top: 7rem;
@@ -52,8 +52,8 @@
     transform: rotate(90deg);
     text-align: center;
     top: 23.3%;
-    right: 69%;
-    width: 42.45%;
+    right: 69.1%;
+    width: 40.3%;
     height: 54%;
 }
 
@@ -64,7 +64,7 @@
     text-align: center;
     left: 79.4%;
     bottom: 47.8%;
-    width: 21%;
+    width: 20%;
     height: 55%;
 }
 
@@ -75,7 +75,7 @@
     text-align: center;
     left: 79%;
     top: 47.3%;
-    width: 22%;
+    width: 21%;
     height: 55%;
 }
 
@@ -94,8 +94,7 @@
     border: 10px solid black;
     color: white;
     background-color: black;
-    text-align: center;   
-    align-content: center;
+    align-items: center;
     justify-content: center;
 }
 
@@ -151,8 +150,8 @@
 
 .boton{
     position: absolute;
-    left: 86%;
-    /* border: 2px solid white; */
+    left: 84%;
+    top: 86%;
     height: 10%;
     width: 10%;
 }

@@ -2,15 +2,13 @@
     position: relative;
     top: 7rem;
     left: 19rem;
-    width: 78%;
+    width: 79.3%;
     height: 40rem;
     /* background-color: rgba(8, 5, 12, 0.76) ;  */
     background-color: #121212;
-    /* border: 2px solid violet; */
 }
 
 .titulo {
-    /* border: 2px solid orange; */
     position: absolute;
     width: 100%;
     height: auto;
@@ -24,7 +22,6 @@
 
 .infoBoletos {
     position: relative;
-    /* border: 2px solid blue; */
     top: 35%;
     left: 2%;
     width: 65%;
@@ -36,21 +33,18 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    /* border: 3px solid black; */
     border-radius: 2%;
 }
 
 .tipoBoleto {
     position: relative;
     width: 20%;
-    /* border: 2px solid seagreen; */
     right: 15%;
 }
 
 .precioBoleto {
     position: relative;
     width: auto;
-    /* border: 2px solid red; */
 }
 
 .cantidadBoleto{
@@ -58,7 +52,6 @@
     display: flex;
     left: 15%;
     width: 40%;
-    /* border: 2px solid gray; */
 }
 
 .numeroCantidad{
@@ -74,7 +67,6 @@
     position: absolute;
     display: flex;
     align-items: center;
-    /* border: 2px solid yellow; */
     left: 30%;
     width: 70%;
     height: 100%;
