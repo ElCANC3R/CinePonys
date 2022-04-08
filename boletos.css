@@ -1,0 +1,125 @@
+.boletos {
+    position: relative;
+    top: 7rem;
+    left: 19rem;
+    width: 78%;
+    height: 40rem;
+    /* background-color: rgba(8, 5, 12, 0.76) ;  */
+    background-color: #121212;
+    /* border: 2px solid violet; */
+}
+
+.titulo {
+    /* border: 2px solid orange; */
+    position: absolute;
+    width: 100%;
+    height: auto;
+    color: white;
+    padding: 2%;
+}
+
+.titulo h2 {
+    text-align: center;
+}
+
+.infoBoletos {
+    position: relative;
+    /* border: 2px solid blue; */
+    top: 35%;
+    left: 2%;
+    width: 65%;
+    height: auto;
+    color: white;
+}
+
+.renglonBoletos {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* border: 3px solid black; */
+    border-radius: 2%;
+}
+
+.tipoBoleto {
+    position: relative;
+    width: 20%;
+    /* border: 2px solid seagreen; */
+    right: 15%;
+}
+
+.precioBoleto {
+    position: relative;
+    width: auto;
+    /* border: 2px solid red; */
+}
+
+.cantidadBoleto{
+    position: relative;
+    display: flex;
+    left: 15%;
+    width: 40%;
+    /* border: 2px solid gray; */
+}
+
+.numeroCantidad{
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    width: 20%;
+    height: 80%;
+    border: 2px solid white;
+}
+
+.botonesCantidad{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid yellow; */
+    left: 30%;
+    width: 70%;
+    height: 100%;
+}
+
+.botonesCantidad button{
+    height: 50%;
+    width: 40%;
+}
+
+.agregarBoleto{
+
+    font-size: 2rem;
+}
+
+.quitarBoleto{
+    font-size: 2rem;
+}
+
+.poster{
+    position: relative;
+    left: 75%;
+    bottom: 15%;
+    height: 60%;
+    width: 20%;
+}
+
+.poster img{
+    height: 100%;
+    width: 100%;
+}
+
+.botonContinuar{
+    position: relative;
+    bottom: 15%;
+    left: 53%;
+    width: 10%;
+    height: 10%;
+}
+
+#continuar{
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    font-size: 3rem;
+}
