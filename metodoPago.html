@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodo de pago</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="menus.css">
+    <link rel="stylesheet" href="metodoPago.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/Logo/logo.jpg" alt="logo" width="50" height="50"
+                        class="d-inline-block align-text-top">
+                    CinePonys
+                </a>
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                </button> -->
+                <div class="menuLogin" id="menuLogin">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAl1JREFUSEu9loFRFUEQRLsjUCMQIlAiUCIQIhAjUCNQItAMlAiECMQIhAgkAyWCsd7VzLq33P2jtMqp+gW1t7s9090zd9Z/Cv8nHN0LKCL2JL2Q9FQS/1dcSrqwfbWV8E6gBPgg6WjjohtJ722fre1bBYqIE0mfuoO3ksicKgiq4/d4qPDY9q8RcBEoIj5LepmbATixfb6UbUQ8lMSzZ/mcZA5HsDtAQyUXCTJlmJc+SZ2ue20i4g30SXpA5bYP+sRmQKnJj9yAyE2bvOidJCrozdCoiojnkr7mw1PbAE8xAkEB7oKuvSo/QTAFwTPEpzLi0vZhXRgRHyW9lgQLB7bZ+wdoqIYsmyYRwSEoaVlGBEb4ngBtf9KLTpik7W8VdVnf2m70DAnsV4apGQ7EBDOaIgLKoLlp1QOV077Zhusp/hIIbb9MlNkTRg+0mF2CFXU05WmuLVK3ltx9gbBumQFQfjWKZgwkENT/TFIwxFUPVI6b2bqjsO+TWp71Wbe32XyJuhLwxvZ+Her/pqNqsCL04jDtzNCM1VfUN9ujfoTktGAkATI2LNqerbiRdWbmnYalufD/ue3j5Lufe0uFsoZmzLeriGiOk9T6a5wMvehvM3v6gUAPdJw6PZ9xKUyQHOvMN0YYVTMLYWCKpaFaNq9Rz6FGwVjSMN8AKzdObtsFxMWA1Sxj70yzBbCR3le2WWux9j4awciUg+21nQ5k/EB3TRIG7pHtejnuBtronTVD8BpncpSGs32bHyeZeWWNuEzxius0AQA7P1A2gRb0gFbeVZtfPpsarXHzL+u/AWVhMiqLYvc6AAAAAElFTkSuQmCC"
+                                    height="50" width="50" />
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><button type="button" class="btn btn-dark" data-bs-toggle="modal"
+                                        data-bs-target="#login">
+                                        Sign in
+                                    </button></li>
+                                <li><button type="button" class="btn btn-dark" data-bs-toggle="modal"
+                                        data-bs-target="#registro">
+                                        Sign up
+                                    </button></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="contenido">
+        <div class="sideBar" id="sideBar">
+            <ul class="navSideBar">
+                <li style="margin-bottom: 40px;"><a href="index.html">Inicio</a></li>
+                <li style="margin-bottom: 40px;"><a href="perfil.html">Perfil</a></li>
+                <li style="margin-bottom: 40px;"><a href="tickets.html">Tickets</a></li>
+                <li style="margin-bottom: 40px;"><a href="nosotros.html">Nosotros</a></li>
+                <br>
+                <p style="color: rgb(248, 244, 244);">Siguenos!</p>
+                <div class="redes">
+                    <br>
+                    <a href="https://www.facebook.com/">
+                        <img src="img/Redes/facebook.png" alt="facebook" width="70" height="70">
+                    </a>
+                    <a href="https://www.twitter.com/">
+                        <img src="img/Redes/twitter.png" alt="twitter" width="60" height="60">
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <img src="img/Redes/instagram.png" alt="instagram" width="60" height="60">
+                    </a>
+                </div>
+            </ul>
+        </div>
+
+        <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+            style="background-color: #1212122c;">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Sign in</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+
+                        <form class="inicioSesion" action="#" method="get" autocomplete="off">
+                            <div class="divRegistro">
+                                <label for="nombreUsuario">Correo electronico :</label>
+                                <input type="text" name="nombreUsuario" id="nombreUsuario"
+                                    placeholder="Correo electronico">
+                            </div>
+                            <div class="divRegistro">
+                                <label for="passUsuario">Contraseña :</label>
+                                <input type="text" name="passUsuario" id="passUsuario" placeholder="Contraseña">
+                            </div>
+                            <div class="divRegistro">
+                                <a href="#"><label>Has olvidado tu contraseña?</label></a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Ingresar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="registro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+            style="background-color: #1212122c;">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Sign up</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="Registro" action="#" method="get" autocomplete="off">
+                            <div class="divRegistro">
+                                <label for="idNombre">Nombre :</label>
+                                <input type="text" name="idNombre" id="idNombre" placeholder="Nombre(s)">
+                            </div>
+                            <div class="divRegistro">
+                                <label for="idApellidos">Apellidos :</label>
+                                <input type="text" name="idApellidos" id="idApellidos" placeholder="Apellidos">
+                            </div>
+                            <div class="divRegistro">
+                                <label for="idCorreo">Correo electronico :</label>
+                                <input type="text" name="idCorreo" id="idCorreo" placeholder="Correo electronico">
+                            </div>
+                            <div class="divRegistro">
+                                <label for="idContraseña">Contraseña</label>
+                                <input type="text" name="idContraseña" id="idContraseña" placeholder="Contraseña">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="metodoPago">
+            <div class="selectMetodo">
+                <div class="text">
+                    <h2>Seleccione metodo de pago:</h2>
+                </div>
+                <div class="listaMetodoPago">
+                    <select name="tiposPago" id="tiposPago">
+                        <option value="p">Paypal</option>
+                        <option value="m">Mastercard/Visa</option>                            
+                    </select>
+                </div>
+            </div>
+            <div class="datosPago">
+                <div class="nombre">
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                </div>
+                <div class="numeroTarjeta">
+                    <input type="text" name="tarjeta" placeholder="Numero de tarjeta" required>
+                </div>
+                <div class="datosTarjeta">
+                    <div class="mesExp">
+                        <select name="mes" id="mes">
+                            <option value="null">Mes Exp.</option>
+                            <option value="enero">01</option>
+                            <option value="febrero">02</option>
+                            <option value="marzo">03</option>
+                            <option value="abril">04</option>
+                            <option value="mayo">05</option>
+                            <option value="junio">06</option>
+                            <option value="julio">07</option>
+                            <option value="agosto">08</option>
+                            <option value="septiembre">09</option>
+                            <option value="octubre">10</option>
+                            <option value="noviembre">11</option>
+                            <option value="diciembre">12</option>
+                        </select>
+                    </div>
+                    <div class="yearExp">
+                        <select name="year" id="year">
+                            <option value="null">Year Exp.</option>
+                            <option value="22">2022</option>
+                            <option value="23">2023</option>
+                            <option value="24">2024</option>
+                            <option value="25">2025</option>
+                            <option value="26">2026</option>
+                            <option value="27">2027</option>
+                            <option value="28">2028</option>
+                        </select>
+                    </div>
+                    <div class="cvv">
+                        <input type="text" name="codigo" placeholder="CVV" required>
+                    </div>
+                </div>
+            </div>
+            <div class="cp">
+                <div class="paisCP">
+                    <select name="pais" id="pais">
+                        <option value="null">Pais</option>
+                        <option value="mx">Mexico</option>
+                        <option value="clm">Colombia</option>
+                        <option value="eu">Estados Unidos</option>
+                        <option value="rs">Rusia</option>
+                        <option value="cnd">Canada</option>
+                        <option value="jpn">Japon</option>
+                    </select>
+                </div>
+                <div class="codigoPostal">
+                    <input type="text" name="postal" id="postal" placeholder="CP">
+                </div>
+            </div>
+            <div class="botonContinuar">
+                <a href="nuevoTicket.html"><button type="button" class="btn btn-outline-dark" id="continuar">Continuar</button></a>
+            </div>
+            <div class="botonRegresar">
+                <a href="#"><button type="button" class="btn btn-outline-danger" id="regresar">Regresar</button></a>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
