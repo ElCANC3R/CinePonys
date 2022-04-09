@@ -3,6 +3,14 @@
     padding: 0px;
 }
 
+.modal-content{
+    background-color: #121212;
+    color: white;
+}
+
+.btn-close{
+    background-color: white;
+}
 
 body, html{
     background-color: #ebe7e7;
@@ -63,6 +71,31 @@ body, html{
     font-size: larger;
 }
 
+.divRegistro label{
+    position: relative;
+    width: 40%;
+}
+
 .divRegistro input{
-    margin-left: 8px;
+    position: relative;
+    left: 3%;
+}
+
+.divLogin{
+    margin-bottom: 8px;
+    font-size: larger;
+}
+
+.divLogin label{
+    position: relative;
+    width: 40%;
+}
+
+.divLogin input{
+    position: relative;
+    left: 3%
+}
+
+#olvidarPassword{
+    width: 100%;
 }

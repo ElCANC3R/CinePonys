@@ -72,8 +72,8 @@
                 </div>
             </ul>
         </div>
-        <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
-            style="background-color: #1212122c;">
+        
+        <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -81,19 +81,18 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-
                         <form class="inicioSesion" action="#" method="get" autocomplete="off">
-                            <div class="divRegistro">
+                            <div class="divLogin">
                                 <label for="nombreUsuario">Correo electronico :</label>
                                 <input type="text" name="nombreUsuario" id="nombreUsuario"
                                     placeholder="Correo electronico">
                             </div>
-                            <div class="divRegistro">
+                            <div class="divLogin">
                                 <label for="passUsuario">Contraseña :</label>
                                 <input type="text" name="passUsuario" id="passUsuario" placeholder="Contraseña">
                             </div>
-                            <div class="divRegistro">
-                                <a href="#"><label>Has olvidado tu contraseña?</label></a>
+                            <div class="divLogin">
+                                <a href="#"><label id="olvidarPassword">Has olvidado tu contraseña?</label></a>
                             </div>
                         </form>
                     </div>
@@ -128,7 +127,7 @@
                                 <input type="text" name="idCorreo" id="idCorreo" placeholder="Correo electronico">
                             </div>
                             <div class="divRegistro">
-                                <label for="idContraseña">Contraseña</label>
+                                <label for="idContraseña">Contraseña:</label>
                                 <input type="text" name="idContraseña" id="idContraseña" placeholder="Contraseña">
                             </div>
                         </form>
@@ -140,6 +139,7 @@
                 </div>
             </div>
         </div>
+
         <div class="generarTicket">
             <div class="titulo">
                 <h1>Tu ticket se ha generado:</h1>
