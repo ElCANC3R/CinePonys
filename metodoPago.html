@@ -143,13 +143,14 @@
             </div>
         </div>
 
-        <div class="metodoPago">
+        <form action="#" method="get" class="metodoPago">
             <div class="selectMetodo">
                 <div class="text">
                     <h2>Seleccione metodo de pago:</h2>
                 </div>
                 <div class="listaMetodoPago">
                     <select name="tiposPago" id="tiposPago">
+                        <option value="null" disabled selected hidden>Selec. Metodo de pago</option>
                         <option value="p">Paypal</option>
                         <option value="m">Mastercard/Visa</option>                            
                     </select>
@@ -165,7 +166,7 @@
                 <div class="datosTarjeta">
                     <div class="mesExp">
                         <select name="mes" id="mes">
-                            <option value="null">Mes Exp.</option>
+                            <option value="null" disabled selected hidden>Mes Exp.</option>
                             <option value="enero">01</option>
                             <option value="febrero">02</option>
                             <option value="marzo">03</option>
@@ -182,7 +183,7 @@
                     </div>
                     <div class="yearExp">
                         <select name="year" id="year">
-                            <option value="null">Year Exp.</option>
+                            <option value="null" disabled selected hidden>Year Exp.</option>
                             <option value="22">2022</option>
                             <option value="23">2023</option>
                             <option value="24">2024</option>
@@ -200,7 +201,7 @@
             <div class="cp">
                 <div class="paisCP">
                     <select name="pais" id="pais">
-                        <option value="null">Pais</option>
+                        <option value="null" disabled selected hidden>Pais</option>
                         <option value="mx">Mexico</option>
                         <option value="clm">Colombia</option>
                         <option value="eu">Estados Unidos</option>
@@ -210,16 +211,19 @@
                     </select>
                 </div>
                 <div class="codigoPostal">
-                    <input type="text" name="postal" id="postal" placeholder="CP">
+                    <input type="text" name="postal" id="postal" placeholder="CP" required>
                 </div>
             </div>
             <div class="botonContinuar">
-                <a href="nuevoTicket.html"><button type="button" class="btn btn-outline-dark" id="continuar">Continuar</button></a>
+                <a href="nuevoTicket.html"><button type="submit" class="btn btn-outline-dark" id="continuar">Continuar</button></a>
             </div>
             <div class="botonRegresar">
                 <a href="#"><button type="button" class="btn btn-outline-danger" id="regresar">Regresar</button></a>
             </div>
-        </div>
+        </form>
+
+        <!-- <div class="metodoPago">
+        </div> -->
     </main>
 </body>
 
