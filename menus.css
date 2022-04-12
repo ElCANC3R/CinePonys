@@ -29,7 +29,7 @@ body, html{
 .encabezado{
     position: fixed;
     z-index: 10;
-    width: 105rem;
+    width: 100%;
 }
 
 .menuLogin{
@@ -39,11 +39,15 @@ body, html{
 
 .sideBar{
     position: fixed;
-    margin-top: 4rem;
+    height: 100%;
+
     background-color: rgb(22, 22, 99);
 }
 
 .redes{
+    position: relative;
+    display: flex;
+    align-items: center;
     padding-right: 15px;
 }
 

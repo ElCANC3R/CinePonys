@@ -74,10 +74,10 @@
 
 .botonContinuar{
     position: absolute;
-    top: 85.9%;
-    left: 84%;
-    width: 10%;
-    height: 10%;
+    top: 76.5%;
+    left: 84.45%;
+    width: 8%;
+    height: 7.3%;
 }
 
 #continuar{
@@ -87,10 +87,10 @@
 
 .botonRegresar{
     position: absolute;
-    top: 85.9%;
-    left: 60%;
-    width: 10%;
-    height: 10%;
+    top: 76.5%;
+    left: 65.4%;
+    width: 8%;
+    height: 7.3%;
 }
 
 #regresar{
