@@ -86,11 +86,10 @@
     height: 30%;
     width: 15%;
     border: 10px solid black;
-    color: white;
+    color: #F8E9D4;
     background-color: black;
-    text-align: center;   
-    align-content: center;
     justify-content: center;
+    align-items: center;
 }
 
 .hora{
@@ -141,4 +140,8 @@
     border-radius: 50%;
     margin-top: 3%;
     right: 64%;
+}
+
+.iconUser{
+    font-size: 40px;
 }

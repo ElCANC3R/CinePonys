@@ -7,6 +7,11 @@
     background-color: #121212;
 }
 
+.contenido{
+    background-color: black;
+    height: 100%;
+}
+
 .titulo{
     position: relative;
     color: white;
@@ -92,7 +97,7 @@
     height: 30%;
     width: 15%;
     border: 10px solid black;
-    color: white;
+    color: #F8E9D4;
     background-color: black;
     align-items: center;
     justify-content: center;
@@ -159,4 +164,8 @@
 #continuar{
     height: 100%;
     width: 100%;
+}
+
+.iconUser{
+    font-size: 40px;
 }

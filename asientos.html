@@ -11,6 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="asientos.css">
     <link rel="stylesheet" href="menus.css">
 </head>
@@ -19,7 +20,7 @@
     <header class="encabezado">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="http://127.0.0.1:5501/index.html#">
+                <a class="navbar-brand" href="index.html">
                     <img src="img/Logo/logo.jpg" alt="logo" width="50" height="50"
                         class="d-inline-block align-text-top">
                     CinePonys
@@ -28,10 +29,9 @@
                 <div class="menuLogin" id="menuLogin">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAl1JREFUSEu9loFRFUEQRLsjUCMQIlAiUCIQIhAjUCNQItAMlAiECMQIhAgkAyWCsd7VzLq33P2jtMqp+gW1t7s9090zd9Z/Cv8nHN0LKCL2JL2Q9FQS/1dcSrqwfbWV8E6gBPgg6WjjohtJ722fre1bBYqIE0mfuoO3ksicKgiq4/d4qPDY9q8RcBEoIj5LepmbATixfb6UbUQ8lMSzZ/mcZA5HsDtAQyUXCTJlmJc+SZ2ue20i4g30SXpA5bYP+sRmQKnJj9yAyE2bvOidJCrozdCoiojnkr7mw1PbAE8xAkEB7oKuvSo/QTAFwTPEpzLi0vZhXRgRHyW9lgQLB7bZ+wdoqIYsmyYRwSEoaVlGBEb4ngBtf9KLTpik7W8VdVnf2m70DAnsV4apGQ7EBDOaIgLKoLlp1QOV077Zhusp/hIIbb9MlNkTRg+0mF2CFXU05WmuLVK3ltx9gbBumQFQfjWKZgwkENT/TFIwxFUPVI6b2bqjsO+TWp71Wbe32XyJuhLwxvZ+Her/pqNqsCL04jDtzNCM1VfUN9ujfoTktGAkATI2LNqerbiRdWbmnYalufD/ue3j5Lufe0uFsoZmzLeriGiOk9T6a5wMvehvM3v6gUAPdJw6PZ9xKUyQHOvMN0YYVTMLYWCKpaFaNq9Rz6FGwVjSMN8AKzdObtsFxMWA1Sxj70yzBbCR3le2WWux9j4awciUg+21nQ5k/EB3TRIG7pHtejnuBtronTVD8BpncpSGs32bHyeZeWWNuEzxius0AQA7P1A2gRb0gFbeVZtfPpsarXHzL+u/AWVhMiqLYvc6AAAAAElFTkSuQmCC"
-                                    height="50" width="50" />
+                            <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">                                
+                                <i class='bx bx-user-circle iconUser' style='color:#ffffff'></i>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><button type="button" class="btn btn-dark" data-bs-toggle="modal"
@@ -152,228 +152,298 @@
                     <div class="asientoLetra">A</div>
                     <div class="asientoBorrar"></div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">A1</span></button>
-                    </div>                
-                    <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">A2</span></button>                        
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">A1</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">A3</span></button>                                                
-                    </div>
-                    <div class="asiento">                
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">A4</span></button>                        
-                    </div>
-                    <div class="asiento">                        
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">A5</span></button>                        
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">A2</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">A6</span></button>                                                
-                    </div>
-                    <div class="asiento">                        
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">A7</span></button>                        
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">A3</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">A8</span></button>                                                
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">A4</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">A9</span></button>                                                
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">A5</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">A10</span></button>                                                
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">A6</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">A7</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">A8</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">A9</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">A10</span></button>
                     </div>
                     <div class="asientoBorrar"></div>
                     <div class="asientoLetra">B</div>
                     <div class="asientoBorrar"></div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">B1</span></button>
-                    </div>                
-                    <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">B2</span></button>                        
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">B1</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">B3</span></button>                                                
-                    </div>
-                    <div class="asiento">                
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">B4</span></button>                        
-                    </div>
-                    <div class="asiento">                        
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">B5</span></button>                        
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">B2</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">B6</span></button>                                                
-                    </div>
-                    <div class="asiento">                        
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">B7</span></button>                        
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">B3</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">B8</span></button>                                                
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">B4</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">B9</span></button>                                                
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">B5</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">B10</span></button>                                                
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">B6</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">B7</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">B8</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">B9</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">B10</span></button>
                     </div>
                     <div class="asientoBorrar"></div>
                     <div class="asientoLetra">C</div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">C1</span></button>
-                    </div>                
-                    <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">C2</span></button>
-                    </div>                
-                    <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">C3</span></button>
-                    </div>                
-                    <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">C4</span></button>                        
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">C1</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">C5</span></button>                                                
-                    </div>
-                    <div class="asiento">                
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">C6</span></button>                        
-                    </div>
-                    <div class="asiento">                        
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">C7</span></button>                        
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">C2</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">C8</span></button>                                                
-                    </div>
-                    <div class="asiento">                        
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">C9</span></button>                        
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">C3</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">C10</span></button>                                                
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">C4</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">C11</span></button>                                                
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">C5</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">C12</span></button>                                                
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">C6</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">C7</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">C8</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">C9</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">C10</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">C11</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">C12</span></button>
                     </div>
                     <div class="asientoLetra">D</div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">D1</span></button>
-                    </div>                
-                    <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">D2</span></button>
-                    </div>                
-                    <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">D3</span></button>
-                    </div>                
-                    <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">D4</span></button>                        
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">D1</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">D5</span></button>                                                
-                    </div>
-                    <div class="asiento">                
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">D6</span></button>                        
-                    </div>
-                    <div class="asiento">                        
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">D7</span></button>                        
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">D2</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">D8</span></button>                                                
-                    </div>
-                    <div class="asiento">                        
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">D9</span></button>                        
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">D3</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">D10</span></button>                                                
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">D4</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">D11</span></button>                                                
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">D5</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">D12</span></button>                                                
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">D6</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">D7</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">D8</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">D9</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">D10</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">D11</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">D12</span></button>
                     </div>
                     <div class="asientoLetra">E</div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">E1</span></button>
-                    </div>                
-                    <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">E2</span></button>
-                    </div>                
-                    <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">E3</span></button>
-                    </div>                
-                    <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">E4</span></button>                        
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">E1</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">E5</span></button>                                                
-                    </div>
-                    <div class="asiento">                
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">E6</span></button>                        
-                    </div>
-                    <div class="asiento">                        
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">E7</span></button>                        
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">E2</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">E8</span></button>                                                
-                    </div>
-                    <div class="asiento">                        
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">E9</span></button>                        
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">E3</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">E10</span></button>                                                
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">E4</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">E11</span></button>                                                
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">E5</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">E12</span></button>                                                
-                    </div>
-                    <div class="asientoLetra">D</div>
-                    <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">F1</span></button>
-                    </div>                
-                    <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">F2</span></button>
-                    </div>                
-                    <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">F3</span></button>
-                    </div>                
-                    <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">F4</span></button>                        
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">E6</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">F5</span></button>                                                
-                    </div>
-                    <div class="asiento">                
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">F6</span></button>                        
-                    </div>
-                    <div class="asiento">                        
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">F7</span></button>                        
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">E7</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">F8</span></button>                                                
-                    </div>
-                    <div class="asiento">                        
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">F9</span></button>                        
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">E8</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">F10</span></button>                                                
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">E9</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">F11</span></button>                                                
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">E10</span></button>
                     </div>
                     <div class="asiento">
-                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span aria-label="A5">F12</span></button>                                                
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">E11</span></button>
                     </div>
-                    
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">E12</span></button>
+                    </div>
+                    <div class="asientoLetra">F</div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">F1</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">F2</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">F3</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">F4</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">F5</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">F6</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">F7</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">F8</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">F9</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">F10</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">F11</span></button>
+                    </div>
+                    <div class="asiento">
+                        <button type="button>"><img src="img/Logo/asiento.png" alt="logoAsiento"><span
+                                aria-label="A5">F12</span></button>
+                    </div>
+
                 </div>
             </div>
 
         </div>
 
         <div class="botonContinuar">
-            <a href="metodoPago.html"><button type="submit" class="btn btn-outline-primary" id="continuar">Continuar</button></a>
+            <a href="metodoPago.html"><button type="submit" class="btn btn-outline-primary"
+                    id="continuar">Continuar</button></a>
         </div>
         <div class="botonRegresar">
-            <a href="boletos.html"><button type="button" class="btn btn-outline-danger" id="regresar">Regresar</button></a>
+            <a href="boletos.html"><button type="button" class="btn btn-outline-danger"
+                    id="regresar">Regresar</button></a>
         </div>
     </main>
 
