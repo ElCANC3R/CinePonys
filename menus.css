@@ -41,13 +41,13 @@ html {
 }
 
 .menuLogin {
-    margin-right: 5em;
+    margin-right: 10rem;
 }
 
 .sideBar {
     position: fixed;
     height: 100%;
-    background-color: rgba(15, 15, 63, 0.664);
+    background-color: rgba(15, 15, 63, 0.664);    
 }
 
 .redes {
@@ -89,6 +89,8 @@ html {
 }
 
 .dropdown-menu {
+    position: absolute;
+    right: 20rem;
     text-align: center;
     background-color: black;
 }
