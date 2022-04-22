@@ -3,122 +3,184 @@
     padding: 0px;
 }
 
-.modal-content{
+.modal-content {
     background-color: #121212;
     color: white;
 }
 
-.btn-close{
+.btn-close {
     background-color: white;
 }
 
-body, html{
+body,
+html {
     background-color: black;
     width: 100%;
     height: 100%;
 }
 
-.redes a{
+.redes a {
     color: rgb(248, 244, 244);
 }
 
-.redes a:link{
+.redes a:link {
     text-decoration: none;
 }
 
-.encabezado{
+.encabezado {
     position: fixed;
     z-index: 10;
     width: 100%;
 }
 
-.menuLogin{
-    margin-right: 10em;
-    margin-left: 30em;
+.contenido {
+    position: relative;
+    top: 8.9%;
+    height: auto;
+    width: 100%;
 }
 
-.sideBar{
+.menuLogin {
+    margin-right: 5em;
+}
+
+.sideBar {
     position: fixed;
     height: 100%;
-    background-color: rgb(22, 22, 99);
+    background-color: rgba(15, 15, 63, 0.664);
 }
 
-.redes{
+.redes {
     position: relative;
     display: flex;
     align-items: center;
     padding-right: 15px;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: xx-large;
 }
 
-.navSideBar{
+.navSideBar {
     font-size: 35px;
     color: rgba(185, 182, 182, 0);
-    margin-top: 3em;
+    margin-top: 1.5em;
 }
 
-.navSideBar a{
+.navSideBar a {
     text-decoration: none;
 }
 
-.navSideBar li{
+.navSideBar li {
     margin-bottom: 40px;
 }
 
-.navSideBar a:hover{
+.navSideBar a:hover {
     color: rgb(248, 244, 244);
 }
 
-.navSideBar p{
+.navSideBar p {
     color: rgb(248, 244, 244);
 }
 
-.dropdown-menu button{
+.dropdown-menu button {
     margin-bottom: 5px;
     width: 8rem;
 }
-.dropdown-menu{
+
+.dropdown-menu {
     text-align: center;
     background-color: black;
 }
 
-.divRegistro{
+.divRegistro {
     margin-bottom: 8px;
     font-size: larger;
 }
 
-.divRegistro label{
+.divRegistro label {
     position: relative;
     width: 40%;
 }
 
-.divRegistro input{
+.divRegistro input {
     position: relative;
     left: 3%;
 }
 
-.divLogin{
+.divLogin {
     margin-bottom: 8px;
     font-size: larger;
 }
 
-.divLogin label{
+.divLogin label {
     position: relative;
     width: 40%;
 }
 
-.divLogin input{
+.divLogin input {
     position: relative;
     left: 3%
 }
 
-#olvidarPassword{
+#olvidarPassword {
     width: 100%;
 }
 
-.iconUser{
+.iconUser {
     font-size: 40px;
+}
+
+.pie {
+    position: relative;
+    top: 25%;
+    bottom: 0%;
+    height: 5rem;
+    width: 100%;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.navFooter{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    height: 60%;
+}
+
+.listNavFooter{
+    position: absolute;
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+    left: 14%;
+    width: 84%;
+}
+
+.listNavFooter li{
+    display: block;
+}
+
+.listNavFooter a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: x-large;
+}
+
+.listNavFooter a:hover{
+    color: gray;
+}
+
+.listNavFooter p{
+    color: whitesmoke;
+    font-size: x-large;
+}
+
+.listNavFooter hr{
+    display: block;
+    background-color: white;
+    width: 3%;
+    height: 3px;
+    transform: rotate(90deg);
 }

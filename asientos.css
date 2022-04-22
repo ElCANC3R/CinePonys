@@ -1,7 +1,7 @@
 .asientos {
     position: relative;
     overflow: hidden;
-    top: 7rem;
+    top: 3rem;
     left: 19rem;
     width: 79.3%;
     height: 40rem;
@@ -79,10 +79,10 @@
 
 .botonContinuar{
     position: absolute;
-    top: 76.5%;
+    top: 93%;
     left: 84.45%;
     width: 8%;
-    height: 7.3%;
+    height: 10%;
 }
 
 #continuar{
@@ -92,10 +92,10 @@
 
 .botonRegresar{
     position: absolute;
-    top: 76.5%;
+    top: 93%;
     left: 65.4%;
     width: 8%;
-    height: 7.3%;
+    height: 10%;
 }
 
 #regresar{

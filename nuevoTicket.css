@@ -3,13 +3,8 @@
     width: 79.3%;
     height: 40rem;
     left: 19rem;
-    top: 7rem;
+    top: 3rem;
     background-color: #121212;
-}
-
-.contenido{
-    background-color: black;
-    height: 100%;
 }
 
 .titulo{
@@ -147,10 +142,17 @@
     width: 40px;
     height: 40px;
     background-color: #121212;
-    position: absolute;
+    position: relative;
     border-radius: 50%;
-    margin-top: 3%;
-    right: 63%;
+    right: 63%;    
+}
+
+.listAdornoTicket{
+    position: absolute;
+    top: 33%;
+    right: 61%;    
+    list-style-type: none;
+    display: block;
 }
 
 .boton{
